@@ -54,13 +54,13 @@ To run this project, ensure the following prerequisites are met:
    node index.js
    ```
 
-5. The server will be available at `http://localhost:3000`.
+5. The server will be available at `http://159.223.172.118:3000`.
 
 ## API Endpoints
 
 ### 1. Analyze Image via URL
 
-- **Endpoint**: `http://159.223.172.118:3000/api/analyze-url`
+- **Endpoint**: `/api/analyze-url`
 - **Method**: POST
 - **Input**:
   ```json
@@ -78,7 +78,7 @@ To run this project, ensure the following prerequisites are met:
 
 ### 2. Analyze Uploaded Image
 
-- **Endpoint**: `http://159.223.172.118:3000/api/analyze-upload`
+- **Endpoint**: `/api/analyze-upload`
 - **Method**: POST
 - **Input**: Multipart file upload (JPEG or PNG).
 - **Response**:
