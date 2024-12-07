@@ -60,7 +60,7 @@ To run this project, ensure the following prerequisites are met:
 
 ### 1. Analyze Image via URL
 
-- **Endpoint**: `/api/analyze-url`
+- **Endpoint**: `http://159.223.172.118:3000/api/analyze-url`
 - **Method**: POST
 - **Input**:
   ```json
@@ -78,7 +78,7 @@ To run this project, ensure the following prerequisites are met:
 
 ### 2. Analyze Uploaded Image
 
-- **Endpoint**: `/api/analyze-upload`
+- **Endpoint**: `http://159.223.172.118:3000/api/analyze-upload`
 - **Method**: POST
 - **Input**: Multipart file upload (JPEG or PNG).
 - **Response**:
