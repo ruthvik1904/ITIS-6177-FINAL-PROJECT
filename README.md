@@ -51,7 +51,7 @@ To run this project, ensure the following prerequisites are met:
 
 4. Run the server:
    ```bash
-   npm start
+   node index.js
    ```
 
 5. The server will be available at `http://localhost:3000`.
@@ -91,9 +91,8 @@ To run this project, ensure the following prerequisites are met:
 
 ## Project Architecture
 
-1. **Frontend**: A minimal client interface for testing endpoints (optional).
-2. **Backend**: Express.js-based server integrating Azure AI OCR API.
-3. **Storage**: Temporary file storage using Multer, with automatic cleanup after processing.
+1. **Backend**: Express.js-based server integrating Azure AI OCR API.
+2. **Storage**: Temporary file storage using Multer, with automatic cleanup after processing.
 
 ## Security Measures
 
