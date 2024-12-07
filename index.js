@@ -10,6 +10,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = 3000;
+const DIGITAL_OCEAN_IP = '159.223.172.118';
 
 const upload = multer({ 
     dest: 'uploads/',
@@ -125,6 +126,6 @@ app.use((err, req, res, next) => {
 });
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+app.listen(PORT, DIGITAL_OCEAN_IP, () => {
+  console.log(`Server running at http://159.223.172.118:${PORT}`);
 });
